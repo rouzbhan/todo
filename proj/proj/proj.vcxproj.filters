@@ -18,5 +18,16 @@
     <ClCompile Include="proj.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="funcs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tasktree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

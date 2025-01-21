@@ -4,6 +4,8 @@
 
 class SubTask {
 private:
+	friend void build_Tree(std::vector &, Node * );
+	
 	std::string name;
 
 	std::string description;
