@@ -1,4 +1,8 @@
-﻿  funcs.cpp
-C:\Users\Rouzbeh\Desktop\tdl\proj\proj\funcs.cpp(18,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Rouzbeh\Desktop\tdl\proj\proj\funcs.cpp(41,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+﻿  main.cpp
+C:\Users\Rouzbeh\Desktop\tdl\proj\proj\tasktree.h(64,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Rouzbeh\Desktop\tdl\proj\proj\tasktree.h(87,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
   proj.vcxproj -> C:\Users\Rouzbeh\Desktop\tdl\proj\x64\Debug\proj.exe
