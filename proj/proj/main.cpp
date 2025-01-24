@@ -5,11 +5,14 @@
 
 int main()
 {
-	std::vector<Node*> list = Read_and_extract();
+	Main();
+	/*std::vector<Node*> list = Read_and_extract();
 	show(list);
 	Sleep(5);
 	std::string command;
-	
-	show_subtasks(list[0]);
-	Sleep(100);
+	std::getline(std::cin, command);
+	edit_Task(list, command);
+	show(list);
+	Sleep(100);*/
+
 }

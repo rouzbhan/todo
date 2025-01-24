@@ -22,7 +22,7 @@ private:
 	int hours, minutes;
 
 	
-	int total;
+	unsigned int total;
 public:
 	Task(std::string n, std::string des, std::string d, int h, int m, std::string s) :
 		name(n), description(des), date(d), hours(h), minutes(m), status(s)
@@ -82,19 +82,22 @@ public:
 		status = s;
 	}
 	void calculate_total() {
-		total = std::stoi(date.substr(0, date.find('/'))) * 365 * 24 * 60;
+		auto d = date;
+		total = std::stoi(d.substr(0, d.find('/'))) * 365 * 24 * 60;
 
-		date.erase(0, date.find('/'));
+		d.erase(0, d.find('/') +1);
 
-		total += std::stoi(date.substr(0, date.find('/'))) * 30 * 24 * 60;
+		total += std::stoi(d.substr(0, d.find('/'))) * 30 * 24 * 60;
 
-		date.erase(0, date.find('/'));
+		d.erase(0, d.find('/')+1);
 
-		total += std::stoi(date.substr(0, 2)) * 24 * 60;
+		total += std::stoi(d.substr(0, 2)) * 24 * 60;
 
 		total = total + hours * 60 + minutes;
 
 	}
 	};
+
+
 
 
